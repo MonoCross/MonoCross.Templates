@@ -12,6 +12,7 @@ namespace $safeprojectname$.Views
         public override void Render()
         {
             System.Console.WriteLine(Model);
+            System.Console.ReadLine();
         }
     }
 }

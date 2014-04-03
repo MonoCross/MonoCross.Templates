@@ -13,7 +13,7 @@ namespace $safeprojectname$
         static void Main(string[] args)
         {
             // initialize container
-            // example: MXConsoleContainer.Initialize(new MyApp.App());
+            // example: MXConsoleContainer.Initialize(new HelloWorld.App());
 
             // initialize views
             MXConsoleContainer.AddView<string>(new Views.MessageView(), ViewPerspective.Default);
